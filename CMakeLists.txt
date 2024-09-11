@@ -3,4 +3,8 @@ project(CPP_Primer_Plus_Chapter_10)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CPP_Primer_Plus_Chapter_10 main.cpp)
+add_executable(CPP_Primer_Plus_Chapter_10 main.cpp
+        src/section_01/1001_stock00.h
+        src/section_01/1002_stock00.cpp
+        src/section_01/1003_useStock0.cpp
+        head.h)
